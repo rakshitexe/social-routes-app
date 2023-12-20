@@ -5,6 +5,10 @@ import geo from '../assets/social-geo.svg'
 import destination from '../assets/Isolation_Mode.svg'
 import back from '../assets/back.svg'
 import abs from '../assets/abs.svg'
+import social from '../assets/Social Media.svg'
+import branding from '../assets/Branding.svg'
+import web from '../assets/Web development.svg'
+
 const Home=()=>{
     const scrollToBottom = () => {
         window.scrollTo({
@@ -84,7 +88,7 @@ const Home=()=>{
                         </div>
                     </div>
                     <div className="col-md-6">
-                        <div className="row">
+                        <div className="row justify-content-end d-flex">
                         <div className="col-3">
                             <img src={back} alt="back" className="back"/>
                         </div>
@@ -92,6 +96,17 @@ const Home=()=>{
                             <img src={abs} alt="back" className="abs"/>
                         </div>
                         </div>
+                    </div>
+                </div>
+                <div className="row">
+                    <div className="col-md-4 justify-content-start d-flex">
+                        <img src={social} alt="social routes" className="section-img-1"/>
+                    </div>
+                    <div className="col-md-4 justify-content-center d-flex" >
+                    <img src={branding} className="section-img"/>
+                    </div>
+                    <div className="col-md-4 justify-content-end d-flex" alt="social routes">
+                    <img src={web} className="section-img"/>
                     </div>
                 </div>
             </div>

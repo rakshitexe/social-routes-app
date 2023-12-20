@@ -12,7 +12,8 @@
     top: 0;
     left: 0;
     z-index: 1;
-    overflow-x: scroll !important;
+    overflow-x: hidden !important;
+    overflow-y: scroll;
 }
 
 @media (max-width: 765px) {
@@ -28,6 +29,14 @@
     .provide{
         justify-content: center;
         font-size: 40px !important;
+    }
+    .des-text{
+        font-size: 50px !important; 
+        padding-left: 10px !important;
+    }
+    .points-text{
+        font-size: 50px !important; 
+        padding-left: 10px !important;
     }
 }
 @media (max-width: 465px) {
@@ -151,17 +160,16 @@
 .des-text {
     color: #FFF;
     font-family: Montserrat;
-    font-size: 60px;
+    font-size: 4vw;
     font-style: normal;
     font-weight: 700;
     line-height: 83.501%;
-    /* 50.101px */
     letter-spacing: -4.2px;
 }
 .points-text{
     color: #FFF;
 font-family: Montserrat;
-font-size: 60px;
+font-size:4vw;
 font-style: normal;
 font-weight: 400;
 line-height: 83.501%;
@@ -183,4 +191,15 @@ letter-spacing: -4.2px;
 .back{
     width:100%;
     margin-top: 10px;
+}
+.section-img{
+    width: 100%;
+    padding: 10px;
+}
+.section-img-1{
+    width: 100%;
+    padding: 5px;
+}
+.dest{
+    width: 100%;
 }
