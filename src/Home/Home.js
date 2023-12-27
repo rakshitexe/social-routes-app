@@ -8,6 +8,9 @@ import abs from '../assets/abs.svg'
 import social from '../assets/Social Media.svg'
 import branding from '../assets/Branding.svg'
 import web from '../assets/Web development.svg'
+import compass from '../assets/compass.svg'
+import prjicon from '../assets/prjicon.svg'
+import projects from '../assets/projects.svg'
 
 const Home=()=>{
     const scrollToBottom = () => {
@@ -81,11 +84,12 @@ const Home=()=>{
                                 <div className="row">
                                     <span className="points-text">Points</span>
                                 </div>
+                                <div className="row">
+                                    <span className="provide">What we provide?</span> 
+                             </div>
                             </div>
                         </div>
-                        <div className="row">
-                           <span className="provide">What we provide?</span> 
-                        </div>
+                       
                     </div>
                     <div className="col-md-6">
                         <div className="row justify-content-end d-flex">
@@ -109,7 +113,77 @@ const Home=()=>{
                     <img src={web} className="section-img"/>
                     </div>
                 </div>
+                <div className="compass">
+                <div className="row" style={{width:'100vw'}}>
+                    <div className="col-3">
+                        <hr/>
+                    </div>
+                    <div className="col-auto">
+                        <div className="row">
+                            <div className="col">
+                        <span className="com-text1">The Compass Of</span> <span className="com-text2">Innovation</span> 
+                        </div>
+                        </div>
+                        <div className="row text-center d-flex mt-3">
+                           <div> <span className="com-text3">What sets us apart?</span></div>
+                        </div>
+                    </div>
+                    <div className="col-3" >
+                        <hr/>
+                    </div>
+                </div>
+                </div>
+                <div className="row ">
+                    <div className="image-compass justify-content-center d-flex">
+                    <img src={compass} style={{width:'50%'}}/>
+                    </div>
+                </div>
+                <div className="row mt-3">
+                    <div className="row mt-3 text-center">
+                        <span className="com-text4">Forget working for you.</span>
+                    </div>
+                    <div className="row text-center">
+                        <span className="com-text5">WE'RE WORKING WITH YOU.</span>
+                    </div>
+                </div>
+
+                
+                <div className="row" style={{marginTop:'100px'}}>
+                    <div className="col-md-6">
+                        <div className="row">
+                            <div className="col-3">
+                                <img src={prjicon} className="dest" alt="Destination"/>
+                            </div>
+
+                            <div className="col-9">
+                                <div className="row">
+                                    <span className="points-text">Our Recent</span>
+                                </div>
+                                <div className="row">
+                                    <span className=" des-text">Projects</span>
+                                </div>
+                            </div>
+                        </div>
+                       
+                    </div>
+                    <div className="col-md-6">
+                        <div className="row justify-content-end d-flex">
+
+                            <img src={back} alt="back" style={{width:'20%'}}/>
+         
+                        </div>
+                    </div>
+                </div>
+
+                <div className="row justify-content-center d-flex" style={{marginTop:'50px'}}>
+                    <img src={projects}/>
+                </div>
+                <div className="compass2">
+
+                </div>
             </div>
+
+           
         </div>
         </>
 

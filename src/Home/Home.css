@@ -129,9 +129,9 @@
 .home-scroll {
     background-color: black;
     color: white;
-    padding: 20px;
+    padding: 0px;
     position: relative;
-    width: 100%;
+    width: 100vw;
     z-index: 2;
     height: 10000px;
     margin-top: 100vh;
@@ -181,7 +181,7 @@ letter-spacing: -4.2px;
     font-size: 40px;
     font-style: normal;
     font-weight: 100;
-    padding-left: 50px;
+    padding-left: 10px;
     padding-top: 10px;
     line-height: 83.501%; /* 33.401px */
 }
@@ -202,4 +202,68 @@ letter-spacing: -4.2px;
 }
 .dest{
     width: 100%;
+}
+.compass{
+    position: relative;
+    left: -80px;
+    margin-top: 40px;
+}
+.compass2{
+    position: relative;
+    left: -80px;
+    margin-top: 40px;
+    background-color: #151515;
+}
+.com-text1{
+    color: #FFF;
+margin-left: -30px;
+font-family: Montserrat;
+font-size: 50px;
+font-style: normal;
+font-weight: 400;
+line-height: 83.501%; /* 50.101px */
+letter-spacing: -4.2px;
+}
+.com-text2{
+    margin-left: 10px;
+    color: #FFF;
+font-family: Montserrat;
+font-size: 80px;
+font-style: normal;
+font-weight: 700;
+line-height: 83.501%;
+letter-spacing: -6.3px;
+}
+.com-text3{
+
+    color: #FFF;
+text-align: center;
+font-family: Montserrat;
+font-size: 40px;
+font-style: italic;
+font-weight: 100;
+line-height: 83.501%; /* 33.401px */
+letter-spacing: -2.8px;
+}
+.com-text4{
+    color: #FFF;
+
+text-align: center;
+font-family: Montserrat;
+font-size: 40px;
+font-style: normal;
+font-weight: 300;
+line-height: 110%; /* 44px */
+}
+.com-text5{
+    color: #68D6BB;
+font-family: Montserrat;
+font-size: 40px;
+font-style: normal;
+font-weight: 500;
+line-height: 110%;
+text-transform: uppercase;
+}
+.image-compass{
+    margin-top: 40px;
 }
